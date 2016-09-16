@@ -14,10 +14,11 @@
 </head>
 
 <body>
-  <!-- <h1>Water Molecule</h1>-->
+  <!-- <h1>Theobromine Molecule</h1>-->
   <svg height="800" width="800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" xlink="http://www.w3.org/1999/xlink">
    <!-- Defs Here! -->
       <defs>
+      <!-- Colors for Individual Atoms-->
     <radialGradient id="Nitrogen" cx="30%" cy="30%" r="50%" fx="30%" fy="30%">
       <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"></stop>
       <stop offset="100%" style="stop-color:#0000FF;stop-opacity:1"></stop>
@@ -34,20 +35,37 @@
       <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"></stop>
       <stop offset="100%" style="stop-color:#E7E0FF;stop-opacity:1"></stop>
     </radialGradient>
-  </defs>
-<!-- the shapes and stuff will go here -->
 
+
+
+
+  </defs>
+<!-- Shapes that aren't molecular structure here-->
 <rect x="0" y="0" width="800" height="800" fill="#8BAA87"></rect>
+
+<!-- The molecular structure will go here -->
+
 <polyline points="687,350, 600,300,513,350,513,350" style="stroke:#4A033B; fill:none; stroke-width:3px;"/>
 <polyline points="513,450, 600,500,687,450,687,450," style="stroke:#4A033B; fill:none; stroke-width:3px;"/>
+<line x1="687" y1="350" x2="687" y2="450" style="stroke: #4a033b; stroke-width: 3px"/>
+<polyline points="514	341	402	305 402	305	333	400 333	400	402	495 402	495	514	459 514	459	514	341" style="stroke: #4A033B; stroke-width: 3px; fill:none"/>
+
+<!-- Double Bond lines -->
+<line x1="513" y1="350" x2="513" y2="450" transform="translate(8 0)" style="stroke: #4a033b; stroke-width: 3px"/>
+<line x1="513" y1="350" x2="513" y2="450" transform="translate(-8 0)" style="stroke: #4a033b; stroke-width: 3px"/>
+
+
+
+<!-- Individual Atoms -->
+
 <circle cx="600" cy="300" r="20" fill="url(#Nitrogen)"/>
 <circle cx="513" cy="350" r="20" fill="url(#Carbon)"/>
 <circle cx="687" cy="350" r="20" fill="url(#Carbon)"/>
 <circle cx="687" cy="450" r="20" fill="url(#Nitrogen)"/>
-<circle cx="600" cy="500" r="20" fill="url(#Carbon)"/>
+<circle  cx="600" cy="500" r="20" fill="url(#Carbon)"/>
 <circle cx="513" cy="450" r="20" fill="url(#Carbon)"/>
 
-</circle>
+
 </svg>
 </body>
 </html>
