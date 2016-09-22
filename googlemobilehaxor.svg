@@ -1,0 +1,68 @@
+<svg height='240' width='800' xmlns="http://www.w3.org/2000/svg"
+  viewbox='0 0 800 240'
+  xmlns:xlink= "http://www.w3.org/1999/xlink">
+  <!-- clipping paths here! -->
+  <defs>
+
+    <!--M-->
+    <clipPath id="m">
+     <rect x="72.5" y="50" height="45" width="100" fill="none" stroke-width="1"/>
+    </clipPath>
+
+    <!--e-->
+    <clipPath id="e">
+      <polygon points="595 120 695 220 495 220 495 20 695 20 695 120 z" />
+    </clipPath>
+<clipPath id="ebar">
+  <circle cx="595" cy="120" r="62.5" stroke-width="1"/>
+</clipPath>
+
+  </defs>
+
+
+<!-- the shapes and stuff will go here -->
+
+<rect x="0" y="0" height="240" width="800" fill="black"/>
+<text x="100" y="200" fill="#0F8">
+  App Design
+</text>
+
+<text x="550" y="200" fill="#0F8">
+  Computer Coding
+</text>
+<g transform="translate(30 -4)">
+<!--M-->
+<polyline points="80 180 80 62.5 z" stroke="#0F8" stroke-width="25" />
+<polyline points="120 180 120 85 z" stroke="#0F8" stroke-width="25" />
+<polyline points="160 180 160 92 z" stroke="#0F8" stroke-width="25" />
+
+
+<g clip-path="url(#m)">
+<circle cx="100" cy="95" r="20" stroke="#0F8" stroke-width="25" fill="none" />
+<circle cx="140" cy="95" r="20" stroke="#0F8" stroke-width="25" fill="none" />
+</g>
+<!--o-->
+
+<circle cx="242.5" cy="120" r="50" fill="none" stroke="#0F8" stroke-width="25"/>
+
+<!--b-->
+<circle cx="385" cy="120" r="50" fill="none" stroke="#0F8" stroke-width="25"/>
+<line x1="335" y1="178" x2="335" y2="7.5" stroke="#0F8" stroke-width="25"/>
+<!--i-->
+<rect x="457.5" y="57.5" height="121.5" width="25" fill="#0F8"/>
+<rect x="457.5" y="20.5" height="25" width="25" fill="#0F8"/>
+
+<!--l-->
+<line x1="510" y1="180" x2="510" y2="7.5" stroke="#0F8" stroke-width="25"/>
+
+
+<!--e-->
+<g transform="rotate(-22.5 595 120)">
+<circle cx="595" cy="120" r="50" fill="none" stroke="#0F8" stroke-width="25" clip-path="url(#e)" />
+<polyline points="545 120 657.5 120 z"  stroke="#0F8" stroke-width="25" clip-path="url(#ebar)" />
+</g>
+
+</g>
+</svg>
+
+<!--r=45 -->
