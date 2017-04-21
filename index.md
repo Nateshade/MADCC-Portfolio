@@ -7,4 +7,4 @@ See my keyboard shortcuts in Esperanto [here](https://nateshade.github.io/madccp
 
 See my Theobromine molecule [here](nateshade.github.io/madccport/Theobromine.html)
 
-See my keyboard shortcuts in English [here](https://nateshade.github.io/madccport/coderef.html)
+See my keyboard shortcuts in English [here](https://nateshade.github.io/madccport/Coderef.html)
